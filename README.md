@@ -1,10 +1,10 @@
 
-## Retrieval-Augmented Generation (RAG) QA System
-# Project Overview
+# Retrieval-Augmented Generation (RAG) QA System
+## Project Overview
 
 This project implements a Retrieval-Augmented Generation (RAG) based Question Answering system for AI research papers. The system retrieves relevant information from research papers using semantic search and generates context-aware answers using a Large Language Model (LLM).
 
-# Features
+## Features
 - Research paper document processing
 - Text chunking and embedding generation
 - FAISS vector database
@@ -13,7 +13,7 @@ This project implements a Retrieval-Augmented Generation (RAG) based Question An
 - Streamlit user interface
 - Source-aware responses
 
-# Technologies Used
+## Technologies Used
 - Python
 - LangChain
 - FAISS
@@ -21,7 +21,7 @@ This project implements a Retrieval-Augmented Generation (RAG) based Question An
 - HuggingFace
 - Streamlit
 
-# Workflow
+## Workflow
 - Load research paper PDFs
 - Split documents into chunks
 - Generate embeddings
@@ -30,7 +30,7 @@ This project implements a Retrieval-Augmented Generation (RAG) based Question An
 - Generate answers using LLM
 - Display results through Streamlit
 
-# Project Summary
+## Project Summary
 
 Developed a Retrieval-Augmented Generation (RAG) based Question Answering system using AI research papers as the knowledge source. The project preprocesses research papers, generates embeddings using Sentence Transformers, stores them in a FAISS vector database, retrieves relevant content based on user queries, and generates context-aware answers using a HuggingFace language model through a Streamlit interface.
 
